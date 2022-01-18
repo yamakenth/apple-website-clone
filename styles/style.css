@@ -81,6 +81,8 @@ footer {
   padding: 10px 0 26px;
   width: 980px;
   margin: 0 auto;
+  display: grid;
+  grid-template: auto / 480px 500px;
 }
 
 footer .resource {
