@@ -2,8 +2,23 @@
   box-sizing: border-box;
 }
 
-nav {
-  display: none;
+body {
+  font-family: 'Lucida Grande', sans-serif;
+  width: 100%;
+  color: #000;
+}
+
+a {
+  text-decoration: none;
+  color: #08c;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+nav li {
+  display: inline-block;
 }
 
 article {
@@ -58,4 +73,48 @@ aside {
   align-items: flex-start;
   gap: 2px;
   margin-top: 2px;
+}
+
+footer {
+  font-size: 10px;
+  color: #6e6e6e;
+  padding: 10px 0 26px;
+  width: 980px;
+  margin: 0 auto;
+}
+
+footer .resource {
+  padding-top: 15px;
+}
+
+footer nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+footer nav li {
+  padding-left: 6px;
+  border-left: 1px solid #ccc;
+  margin-left: 6px;
+}
+
+nav .first {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+.privacy p,
+.privacy nav {
+  display: inline-block;
+}
+
+footer .region.hide {
+  color: #ffffff00;
+  background-image: url("../img/usa.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 5px;
+  margin: -10px -10px -10px 0px;
 }
