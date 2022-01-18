@@ -68,11 +68,17 @@ header {
 }
 
 aside {
+  margin-top: 2px;
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
-  gap: 2px;
-  margin-top: 2px;
+}
+
+aside img {
+  width: 354px;
+}
+
+aside img:hover {
+  cursor: pointer;
 }
 
 footer {
