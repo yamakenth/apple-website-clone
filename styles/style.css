@@ -61,6 +61,21 @@ nav li {
   display: inline-block;
 }
 
+#apple-logo a {
+  visibility: hidden;
+}
+
+.main-nav img {
+  height: 20px;
+  position: fixed;
+  top: 5px;
+  left: 40px;
+}
+
+#apple-logo:hover {
+  cursor: pointer;
+}
+
 .search-bar {
   padding: 0 12px;
 }
