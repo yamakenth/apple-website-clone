@@ -26,6 +26,12 @@ nav li {
   border-radius: 4px;
   display: inline-block;
   background: linear-gradient(#8a8a8a, #5e5e5e, #787878);
+  position: absolute;
+  width: 988.5px;
+  top: 80px;
+  left: 50%;
+  transform: translate(-50%);
+  box-shadow: 2px 2px 2px #5d5d5d;
 }
 
 .main-nav nav li {
