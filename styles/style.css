@@ -21,6 +21,54 @@ nav li {
   display: inline-block;
 }
 
+.main-nav {
+  border: 1px solid #7c7c7c;
+  border-radius: 4px;
+  display: inline-block;
+  background: linear-gradient(#8a8a8a, #5e5e5e, #787878);
+}
+
+.main-nav nav li {
+  width: 102px;
+  padding: 8px 6px;
+  border-right: 1px solid #4c4c4c;
+}
+
+.main-nav nav a {
+  font-size: 12px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-nav nav a:hover {
+  text-decoration: none;
+}
+
+.main-nav nav,
+.main-nav .search-bar {
+  display: inline-block;
+}
+
+.search-bar {
+  padding: 8px 12px;
+}
+
+.search-bar input {
+  background: none;
+  border: 1px solid #868686;
+  border-radius: 9px;
+  width: 106px;
+  box-shadow: inset 1px 3px 4px #373737;
+  background: url('../img/search.png');
+  background-repeat: no-repeat;
+  background-position: 4px 50%;
+  background-size: 12px 12px;
+  padding-left: 18px;
+  outline: none;
+}
+
 article {
   background: url("../img/your_verse_hero.jpeg") no-repeat left bottom;
   width: 100%;
